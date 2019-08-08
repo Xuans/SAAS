@@ -1,0 +1,25 @@
+{
+    "host":{
+        "ars":{
+            "ip":"192.168.0.38",
+            "port":"3306",
+            "user":"root",
+            "password":"123456",
+            "name":"aweb_cnpm"
+        },
+        "docs":{
+            "ip":"192.168.0.38",
+            "port":"3306",
+            "user":"root",
+            "password":"123456",
+            "name":"showdoc"
+        },
+        "social":{
+            "ip":"10.8.4.209",
+            "port":"3306",
+            "user":"root",
+            "password":"123456",
+            "name":"aweb_social"
+        }
+    }
+}
