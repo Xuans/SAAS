@@ -1,5 +1,8 @@
 {
-    "host":{
+    "server":{
+        "port":12345
+    },
+    "dataSource":{
         "ars":{
             "ip":"192.168.0.38",
             "port":"3306",
