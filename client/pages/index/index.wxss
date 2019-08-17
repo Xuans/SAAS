@@ -1,10 +1,22 @@
 /**index.wxss**/
 
+.index-ctn {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.index-content {
+  flex: 1;
+}
+
+/* 搜索 Start */
+
 .search-ctn {
   display: block;
   width: 90%;
   margin: 0 5%;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   border-radius: 1em;
 }
 
@@ -12,11 +24,53 @@
   display: block;
   padding: 0.25rem 1rem;
   line-height: 1;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .search-ctn>i {
   position: absolute;
-  top:.5rem;
+  top: 0.5rem;
   right: calc(5% + 1rem);
 }
+
+/* 搜索 End */
+
+/* 可切换容器 Start */
+
+.nav {
+  position: fixed;
+  top: 36px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 80rpx;
+  background: #f7f7f7;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.nav-item {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+}
+
+.nav-item.active {
+  color: red;
+}
+
+.tab-box {
+  background: greenyellow;
+  padding-top: 80rpx;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.tab-content {
+  overflow-y: scroll;
+}
+
+/* 可切换容器 End */
